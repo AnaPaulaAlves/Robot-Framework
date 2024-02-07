@@ -1,0 +1,23 @@
+COMANDO PARA ABRIR A DOCUMENTAÇÃO NO TERMINAL DO VISUAL STUDIO
+robot --help
+
+=================================================
+
+cls= para limpar o comando
+=================================================
+robot -i menus inclui
+amazon_testes.robot para executar e de um espaso sem aspas duplas
+===============================================
+
+robot -e menus robot amazon_testes.robol
+excluir
+==============================================
+
+robot -d resultados amazon_testes.robot
+
+==============================================
+robot -v BROWSER:firefox -i menus -d resultados amazon_testes.robot
+
+==============================================
+
+robot -d ./resultados -i menus amazon_testes_gherkin_bdd.robot
